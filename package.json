@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env MODE=dev nuxt",
+    "build": "cross-env MODE=pro nuxt build",
+    "start": "cross-env MODE=pro nuxt start",
+    "generate": "cross-env MODE=pro nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.6",
+    "sass-loader": "^10.1.0",
+    "vue-baidu-map": "^0.21.22",
+    "vue-count-to": "^1.0.13"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "cross-env": "^7.0.3",
+    "mockjs": "^1.1.0",
+    "swiper": "^5.2.0",
+    "vue-awesome-swiper": "^4.1.1"
+  }
+}
